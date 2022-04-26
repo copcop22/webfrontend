@@ -1,38 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clumberlane</title>
 
-    <!-- Bootstrap core CSS -->
-<link href="bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom styles for this template -->
-<link href="bootstrap/assets/examples/navbar-fixed/navbar-top-fixed.css" rel="stylesheet">
-<!-- Custom styles for this template -->
-<link href="bootstrap/assets/examples/carousel/carousel.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB FRONT END</title>
+
+
+
+  <!-- Bootstrap core CSS -->
+
+  <link href="bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="bootstrap/assets/examples/navbar-fixed/navbar-top-fixed.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="bootstrap/assets/examples/carousel/carousel.css" rel="stylesheet">
+  <!-- Footers -->
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
 
 </head>
 
 <body>
 
-    
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navigation">
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navigation">
     <label for="nav-button" onclick></label>
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">CLUMBERLANE</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        
-        <li class="nav-item">
+    <div class="container">
+      <a class="navbar-brand" href="#">WEBFRONTEND</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link" href="#album">Album</a>
           </li>
 
@@ -41,106 +65,101 @@
           </li>
 
         </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
 
-<main>
-
-        
-    </div>
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-start" >
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img"  width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  
- 
-  <div class="container">
-  <div class="card" id="album">
-    <H1 class="text-lg-center text-dark">ALBUMS</H1>
-      </div>
+  </nav>
+
+
+  <main>
+
+
     </div>
-    <div class="album py-5" >
-        <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            
-            <img src="img/suaka elang gitar.jpg" alt="responsive image" class="img-thumbnail"   max-width="100%" height="225"; xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                 
-                <title>Placeholder</title>
-                <rect  width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="container carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="img/painting2.jpg">
+            <rect width="100%" height="100%" fill="#777" /></svg>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+
+              </button>
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" /><img src="img/painting1.jpg"></svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="img/painting3.jpg">
+            <rect width="100%" height="100%" fill="#777" /></svg>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="container">
+      <div class="card" id="album">
+        <H1 class="text-lg-center text-dark">ALBUMS</H1>
+      </div>
+    </div>
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
             <div class="card shadow-sm">
-              
-              <img src="img/tangga3.jpg" alt="responsive image" class="img-thumbnail"  width="100%" height="225"; xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                   
-                  <title>Placeholder</title>
-                  <rect  width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+              <img src="img/album2.jpg" alt="responsive image" class="img-thumbnail" max-width="100%" height="225" ;
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -153,13 +172,38 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              
-              <img src="img/tangga3.jpg" alt="responsive image" class="img-thumbnail"   max-width="100%" height="225"; xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                   
-                  <title>Placeholder</title>
-                  <rect  width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+              <img src="img/album3.jpg" alt="responsive image" class="img-thumbnail" width="100%" height="225" ;
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/album1.jpg" alt="responsive image" class="img-thumbnail" max-width="100%" height="225" ;
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -171,101 +215,114 @@
             </div>
           </div>
 
-          
-          </div>
+
+        </div>
       </div>
     </div>
 
-        <div class="container py-3">
-            <div class="card" id="album">
-            <H1 class="text-lg-center text-dark">BIODATA</H1>
-                </div>
-            </div>
-        
+    <div class="container py-3">
+      <div class="card" id="album">
+        <H1 class="text-lg-center text-dark">BIODATA</H1>
+      </div>
+    </div>
+
 
     <div class="container py-3">
-        <div class="col">
-          <div class="card" id="biodata">
-                  
+      <div class="col">
+        <div class="card" id="biodata">
+
           <div class="container">
-          <form  class="row g-3">
-          <div class="col-md-6">
-          <div class="form-group">
-              <label for="InputNamaDepan" class="form-label" >Nama Depan</label>
-              <input type="text" class="form-control is-invalid" id="InputNamaDepan" placeholder="Masukan Nama Depan" required>
-              <div class="invalid-feedback">
-                  Please provide a valid Name.
-                </div>
-          </div>
-          </div>
-          <div class="col-md-6">
-              <div class="form-group">
-                  <label for="InputNamaBelakang" class="form-label" >Nama Belakang</label>
-                  <input type="text" class="form-control is-invalid"  id="InputNamaBelakang" placeholder="Masukan Nama Belakang" required>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="InputNamaDepan" class="form-label">Nama Depan</label>
+                  <input type="text" class="form-control is-invalid" id="InputNamaDepan"
+                    placeholder="Masukan Nama Depan" required>
                   <div class="invalid-feedback">
-                      Please provide a Name.
-                    </div>
+                    Please provide a valid Name.
+                  </div>
+                </div>
               </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="InputNamaBelakang" class="form-label">Nama Belakang</label>
+                  <input type="text" class="form-control is-invalid" id="InputNamaBelakang"
+                    placeholder="Masukan Nama Belakang" required>
+                  <div class="invalid-feedback">
+                    Please provide a Name.
+                  </div>
+                </div>
               </div>
-              
-                  <div class="col-md-6">
-                      <label for="validationServer03" class="form-label">City</label>
-                      <input type="text" class="form-control is-invalid" id="validationServer03" required>
-                      <div class="invalid-feedback">
-                        Please provide a valid city.
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <label for="validationServer04" class="form-label">State</label>
-                      <select class="form-select is-invalid" id="validationServer04" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option>...</option>
-                      </select>
-                      <div class="invalid-feedback">
-                        Please select a valid state.
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <label for="validationServer05" class="form-label">Zip</label>
-                      <input type="text" class="form-control is-invalid" id="validationServer05" required>
-                      <div class="invalid-feedback">
-                        Please provide a valid zip.
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">
-                          Agree to terms and conditions
-                        </label>
-                        <div class="invalid-feedback">
-                          You must agree before submitting.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary" type="submit">Submit form</button>
-                    </div>
-                    <div class="card-text">
-                      
-                    </div>
-          </form>
+
+              <div class="col-md-6">
+                <label for="validationServer03" class="form-label">City</label>
+                <input type="text" class="form-control is-invalid" id="validationServer03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationServer04" class="form-label">State</label>
+                <select class="form-select is-invalid" id="validationServer04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationServer05" class="form-label">Zip</label>
+                <input type="text" class="form-control is-invalid" id="validationServer05" required>
+                <div class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                  <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </div>
+              <div class="card-text">
+
+              </div>
+            </form>
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
-  </div>
-</div>
+    </div>
+    </div>
+
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
 
   </main>
 
-</div>
 
-    
 
-    <script src="bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="bootstrap/assets/dist/js/smoothscroll.js"></script>
-    <script src="bootstrap/assets/dist/js/jquery.nav.js"></script>
+
+  <script src="../bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap/assets/dist/js/smoothscroll.js"></script>
+  <script src="../bootstrap/assets/dist/js/jquery.nav.js"></script>
 </body>
+
 </html>
